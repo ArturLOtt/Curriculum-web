@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F0E0C8;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+.supername {
+    display: flex;
+    transform: translateX(30%);
+}
+
+.nome {
+    align-items: center;
+    margin-right: 30%; 
+    transform: translatey(220%); 
+    display: flex;
+    flex-direction: column;
+}
+
+.undername {
+    align-items: center;
+    margin-right: 30%; 
+    transform: translatey(150%); 
+    display: flex;
+    flex-direction: column;
+}
+
+/* ver como faz para arredondar imagem e tirar pixels */
+#cuvitactellus {
+    align-items: center;
+    margin-left: 40%;
+    border-radius: 5%;
+    /* box-shadow: 5px 10px #888888; */
+}
+
+.webDesign {
+    align-items: center;
+    margin-right: 80%; 
+    transform: translatey(220%); 
+    display: flex;
+    flex-direction: row;
+}
+
+.quadrado1 {
+    padding-left: 30%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 4px;
+    background-color: white;
+    width: 40em;
+    
+}
+
+/* ver como faz para fazer link redirecionar para uma fração do site */
+.botoes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 20%;
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-bg {
+    border-color: white;
+    color: white;
+}
+
+.btn {
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 18px;
+    transition: all 150ms linear;
+    line-height: 1.42857143;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    height: 100vh;
+}
+
+.trabalhos {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.trampo1 {
+    background-color: #776589;
+    width: 25%;
+    font-family: 'Noto Serif', serif;
+    padding: 20% 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.trampo1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.destaque {
+    font-size: 4em;
+}
+
+.job1 {
+    background-color: #BCB09E;
+    width: 75%;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Negrito não funciona */
+.job1 h2 {
+    font-weight: 1000;
+}
+
+.olders {
+    margin: 10% 20% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.news {
+    margin: 10% 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.trampo2 {
+    background-color: #66428d;
+    width: 25%;
+    font-size: 14px;
+    width: 25%;
+    font-family: 'Noto Serif', serif;
+    padding: 20% 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.trampo2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.job2 {
+    background-color: #F0E0C8;
+    width: 75%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.job1 h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.job2 h2 {
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.skillos {
+    margin: 10% 0 0 0;
+}
+
+.skillos h2 {
+    padding: 0 0 0 15%;
+}
+
+.design {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.programaksao {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.soft {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.idiomas {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.w3-blue, .w3-hover-blue:hover {
+    color: #fff!important;
+    background-color: #5402ac!important;
+    width: 30px;
+}
+
+.w3-container, .w3-panel {
+    padding: 0 25px;
+    border: 2px solid #a6a6a6;
+    border-radius: 30px;
+} 
+
+.cursosEcertificaksao {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.cursos {
+    margin: 5% 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dev-tecnico {
+    text-align: center; 
+}
+
+.contact {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.contact-link {
+    display: flex;
+    padding: 5em;
+    justify-content: space-around;
+}
+
+.daki {
+    height: 65px;
+    width: 65px;
+}
+
+.webPizza {
+    height: 300px;
+    width: 200px;
+}
+
+.webCarfel {
+    height: 300px;
+    width: 200px;
+}
+
+.photoshop {
+    height: 65px;
+    width: 65px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.ilustrator {
+    height: 65px;
+    width: 65px;
+}
+
+.java {
+    height: 65px;
+    width: 65px;
+}
+
+.html5 {
+    height: 65px;
+    width: 65px;
+}
+
+.css {
+    height: 65px;
+    width: 65px;
+}
+
+.javascript {
+    height: 65px;
+    width: 150px;
+}
+
+.android {
+    height: 65px;
+    width: 150px;
+}
+
+.office {
+    height: 65px;
+    width: 65px;
+}
+
+.brazil {
+    height: 65px;
+    width: 65px;
+}
+
+.usa {
+    height: 65px;
+    width: 65px;
+}
+
+.espana {
+    height: 65px;
+    width: 65px;
+}
+
+.deutsch {
+    height: 65px;
+    width: 65px;
+}
+
+.mackenzie {
+    height: 120px;
+    width: 250px;
+}
+
+.senai {
+    height: 65px;
+    width: 65px;
+}
+
+.codexp {
+    height: 65px;
+    width: 65px;
+}
+
+.linkedin {
+    height: 65px;
+    width: 100px;
+}
+
+.pinterest {
+    height: 65px;
+    width: 65px;
+}
+
+.github {
+    height: 65px;
+    width: 65px;
+}
+
+
